@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar style*/
+
+.background {
+  background-color: #999999;
+  color: #000000;
+}
+
+.nav-item {
+  border-bottom: 1px solid #000000;
+  background-color: white;
+  color: #000000;
+  font-size: 20px;
+}
+
+.nav-item:last-child {
+  border-bottom: none;
+}
+
+
+
+/* heading style start  */
+.heading {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* heading style end  */
+
+
+
+
+
+
+/* paragraph style start*/
+
+.main {
+  background-color: #999999;
+  color: #000000;
+  padding: 10px 10px;
+}
+
+/* paragraph style end*/
+
+
+
+
+
+
+
+
+/*************media queries code****************/
+
+
+
+
+/* large device*/
+@media (min-width:992px) {
+  .visible-xs {
+    visibility: hidden;
+  }
+
+}
+
+
+/* medium devices like desktop*/
+@media (min-width:768px) and (max-width:991px) {
+  .visible-xs {
+    visibility: hidden;
+  }
+}
+
+
+/* small devices like tablet*/
+@media (min-width:576px) and (max-width:767px) {
+  .visible-xs {
+    visibility: hidden;
+  }
+
+}
+
+/*extra small devices like mobile*/
+@media (width: 575px) {
+  .visible-xs {
+    visibility: visible;
+  }
+
+}
